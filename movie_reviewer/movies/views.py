@@ -16,10 +16,11 @@ from django.views.generic.list import ListView
 from movie_reviewer.movies.forms import SearchForm
 from movie_reviewer.movies.models import Movie
 from movie_reviewer.critics.models import Critic
+from decouple import config
 import tmdbsimple as tmdb
 
 
-tmdb.API_KEY = '20198fe77843ae9de92a02d9ce1e74c0'
+tmdb.API_KEY = config('API_KEY')
 
 
 class RecentMoviesView(View):
