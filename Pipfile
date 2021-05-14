@@ -12,6 +12,7 @@ django = "*"
 python-dotenv = "*"
 tmdbsimple = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8.10"
