@@ -11,6 +11,7 @@ autopep8 = "*"
 django = "*"
 python-dotenv = "*"
 tmdbsimple = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8.10"
